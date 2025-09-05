@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    color: white;
+      font-family: "Poppins", sans-serif;
+
+  font-style: normal;
+}
+.desk{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("img/bg1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.desk div{
+    padding: 60px 100px 80px 100px;
+  text-align: center;
+}
+.desk div ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    list-style: none;
+    font-weight: 500;
+   
+
+}
+.desk div h1{
+    font-size: 96px;
+    font-weight: 700;
+    margin-top: 100px;
+    
+}
+.desk div p {
+    font-size: 24px;
+    font-weight: 275;
+    
+}
+.desk div button{
+    margin-top: 250px;
+    background-color: #00B43D;
+    border: 4px solid white;
+    padding: 18px 60px;
+    border-radius: 20px;
+    color: white;
+    font-size: 24px;
+}
+footer{
+    padding: 20px;
+    background-color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.foto{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("img/bg2.jpg");
+        background-position: center;
+    background-size: cover;
+}
+.foto-foto{
+    text-align: center;
+    padding: 100px 70px;
+}
+.foto-foto h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+.foto-block{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.foto-block div{
+    background-color: #58585880;
+    width: 20%;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.foto-block div img{
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+}
+.foto-block div h3{
+    font-size: 32px;
+    font-weight: 500;
+}
+.foto-block div p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.foto-block div button{
+    background-color: #3d3d3d73;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    
+    
+}
+.text{
+    padding: 100px 80px;
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("img/bg3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.text div{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.text div h2{
+    font-size: 48px;
+    font-weight: 500;
+}
+.text div p{
+    font-size: 32px;
+    font-weight: 275;
+}
